@@ -258,46 +258,89 @@ export const data = [
     {
         key: '11',
         name: 'Decentraland (MANA)',
-        launched: '',
-        marketCap: {cap: 0, place: 0},
-        price: 0,
-        maxSupply: '',
-        gasFee: '',
-        tps: 0,
-        transactionFinality: '',
-        consensus: '',
-        founders: '',
-        developerActivity: {total_repos: 0, repos: [{name: '', stars: 0, forks: 0, issues: 0, prs: 0, contributors: 0}]},
-        mainIdea: ''
+        launched: '2020',
+        marketCap: {cap: 1.764, place: 36},
+        price: 0.95,
+        maxSupply: '-',
+        gasFee: '=Ethereum',
+        tps: '=Ethereum',
+        transactionFinality: '=Ethereum',
+        consensus: '=Ethereum',
+        founders: 'Decentraland was co-founded by Ariel Meilich and Esteban Ordano — both of whom have stepped down from major positions at the project, but still work alongside Decentraland as advisors.\n' +
+            '\n' +
+            'Ariel Meilich previously held the role of project lead at Decentraland between 2017 and 2020, and is a serial entrepreneur that has founded several other startups, including an online translation agency and a CRM platform. He also worked as an analyst at Charles River Ventures, a prominent Silicon Valley venture fund.\n' +
+            '\n' +
+            'On the other hand, Esteban Ordano is Decentraland\'s former tech lead and has a long and varied history in the cryptocurrency space working as a software engineer at BitPay, Inc., an advisor to Matic Network and briefly operated his own smart contract development firm known as Smart Contract Solutions.\n' +
+            '\n' +
+            'Esteban is also credited with co-founding Zeppelin Solutions, an established blockchain technology infrastructure company.\n' +
+            '\n' +
+            'Although Ariel and Estaban are no longer leading the project, the development of Decentraland is still ongoing, with efforts being directed by the recently established Decentraland Foundation.',
+        developerActivity: {total_repos: 262, repos: [{name: 'marketplace', stars: 828, forks: 475, issues: 76, prs: 10, contributors: 17}]},
+        mainIdea: '\n' +
+            'Decentraland is a user-owned, Ethereum-based virtual world where you can play, explore, and interact with games and activities. Decentraland (MANA) defines itself as a virtual reality platform powered by the Ethereum blockchain that allows users to create, experience, and monetize content and applications.\n' +
+            '\n' +
+            'In this virtual world, users purchase plots of land that they can later navigate, build upon and monetize.\n' +
+            '\n' +
+            'Decentraland was launched following a $24 million initial coin offering (ICO) that was conducted in 2017. The virtual world launched its closed beta in 2019 and opened to the public in February 2020. Since then, users have created a wide range of experiences on their parcels of LAND, including interactive games, sprawling 3D scenes and a variety of other interactive experiences.\n' +
+            '\n' +
+            'Decentraland uses two tokens: MANA and LAND. MANA is an ERC-20 token that must be burned to acquire non-fungible ERC-721 LAND tokens. MANA tokens can also be used to pay for a range of avatars, wearables, names, and more on the Decentraland marketplace.' +
+            'Decentraland is built for content creators, businesses and individuals that are looking for a new artistic medium, business opportunity, or source of entertainment.\n' +
+            '\n' +
+            'In total, the Decentraland gameworld — termed the “Metaverse” — is divided into 90,601 individual parcels of LAND, each of which is represented by an ERC-721 non-fungible token. Each LAND is exactly 16m x 16m (256 square meters) and can be found at a particular coordinate in the Metaverse.\n' +
+            '\n' +
+            'Though LAND holders are free to develop their plot into whatever they choose, much of the Metaverse is broadly divided into several districts, each of which has a different size and theme. These districts were generated through individual crowdsales for MANA tokens, and parcels of LAND in these districts cannot be traded.\n' +
+            '\n' +
+            'As of January 2021, the cyberpunk-themed Aetheria is the largest district — comprising a total of 8,008 LAND.\n' +
+            '\n' +
+            'Decentraland is also one of the growing number of projects to use a decentralized autonomous organization (DAO) structure for governance decisions. As a result, MANA toker holders are in control of how the Decentraland world behaves, by proposing and voting on policy updates, the specifics of upcoming LAND auctions and the types of content that are allowed with the Metaverse.\n' +
+            '\n' +
+            'Besides being a creative outlet, many Decentraland users currently monetize their LAND through leasing, advertising and paid experiences. Likewise, other users generate an income by creating and selling items on the Decentraland marketplace for MANA tokens.'
     },
     {
         key: '12',
         name: 'Litecoin (LTC)',
-        launched: '',
-        marketCap: {cap: 0, place: 0},
-        price: 0,
-        maxSupply: '',
-        gasFee: '',
-        tps: 0,
+        launched: '2011',
+        marketCap: {cap: 4.473, place: 19},
+        price: 63.55,
+        maxSupply: '84⨉10^6',
+        gasFee: 'variable ~0,05$',
+        tps: 56,
         transactionFinality: '',
-        consensus: '',
-        founders: '',
-        developerActivity: {total_repos: 0, repos: [{name: '', stars: 0, forks: 0, issues: 0, prs: 0, contributors: 0}]},
-        mainIdea: ''
+        consensus: 'PoW',
+        founders: 'Litecoin was founded by Charlie Lee, an early cryptocurrency adopter. Charlie Lee, also known as “Chocobo,” is an early Bitcoin miner and computer scientist, who was a former software engineer for Google. In addition, Charlie Lee held the role of director of engineering at Coinbase between 2015 and 2017 before moving on to other ventures.\n' +
+            '\n' +
+            'Today, Charlie Lee is an outspoken advocate of cryptocurrencies and is the managing director of the Litecoin Foundation—a non-profit organization that works alongside the Litecoin Core Development team to help advance Litecoin.',
+        developerActivity: {total_repos: 27, repos: [{name: 'litecoin', stars: 4100, forks: 32500, issues: 57, prs: 13, contributors: 8}]},
+        mainIdea: 'Forked from Bitcoin repo. Behind Bitcoin, Litecoin is the second most popular pure cryptocurrency. This success can be largely attributed to its simplicity and clear utility benefits.\n' +
+            '\n' +
+            'As of January 2021, Litecoin is one of the most widely accepted cryptocurrencies, and more than 2,000 merchants and stores now accept LTC across the globe.'
     },
     {
         key: '13',
         name: 'Toncoin (TON)',
-        launched: '',
-        marketCap: {cap: 0, place: 0},
-        price: 0,
-        maxSupply: '',
+        launched: '2018',
+        marketCap: {cap: 1.721, place: 207},
+        price: 1.41,
+        maxSupply: '5⨉10^9',
         gasFee: '',
-        tps: 0,
-        transactionFinality: '',
-        consensus: '',
-        founders: '',
-        developerActivity: {total_repos: 0, repos: [{name: '', stars: 0, forks: 0, issues: 0, prs: 0, contributors: 0}]},
-        mainIdea: ''
+        tps: 'millions of transactions/sec',
+        transactionFinality: 'under 1sec',
+        consensus: 'PoS',
+        founders: 'Toncoin, also referred to as the Open Network, was first conceived by Telegram founders Pavel and Nikolai Durov in 2018. The Russian-born brothers, keen to develop a layer 1 chain to support their growing Telegram messenger user base, invested considerable energy to come up with an early iteration of TON. After raising $1.7bn during a private sale in 2018, the Durovs published a series of documents outlining details and features of their crypto project. \n' +
+            '\n' +
+            'In 2019 the SEC sued Telegram, accusing it of promoting an unregistered securities offering. By 2020, the case had been settled but the founders called it quits on the project. \n' +
+            '\n' +
+            'It was only in 2020 that a team of developers picked up the project again and resumed development. TON Foundation, the leader of the project, is structured as a not-for-profit.\n' +
+            '\n' +
+            'In December 2021, Pavel Durov, who is now based in Dubai, acknowledged and backed the new spinoff, writing in a Telegram post: “When Telegram said goodbye to TON last year, I expressed the hope that future generations of developers would one day carry on with our vision of a mass-market blockchain platform.\n' +
+            '\n' +
+            '“So I was inspired to see the champions of Telegram\'s coding contests continue developing the open TON project, which they rebranded to Toncoin.\n' +
+            '\n' +
+            '“I\'m proud that the technology we created is alive and evolving. When it comes to scalability and speed, TON is still years ahead of everything else in the blockchain realm. It would have been a shame to see this project not benefitting humanity.\n' +
+            '\n' +
+            '“Unlike the original TON, Toncoin is independent from Telegram. But I wish its team the same success.” The TON Foundation was founded by two developers, Anatoliy Makosov and Kirill Emelyanenko, both winners in the TON Blockchain Contests in 2019 after Telegram stepped away. ',
+        developerActivity: {total_repos: 28, repos: [{name: 'ton', stars: 1500, forks: 405, issues: 50, prs: 13, contributors: 11}]},
+        mainIdea: 'The next gen network to unite all blockchains and the existing Internet. Apart from processing millions of transactions per second, TON blockchain-based ecosystem has all the chances to give rise to a genuine Web3.0 Internet with decentralized storage, anonymous network, DNS, instant payments and various decentralized services. TON is a fully decentralized Layer-1 blockchain. TON is a blockchain of blockchains with a masterchain to rule them all. ' +
+            'TON architecture is designed to merge alle existing blockchains into a single decentralized network.'
     }
 ];
